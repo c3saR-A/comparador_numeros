@@ -16,7 +16,7 @@ def get_numbers():
     return numbers
 
 def evaluation(numbers):
-    # Compara los números y retorna un mensaje si son iguales o cual es mayor
+    # Compara los números y retorna un mensaje sí son iguales o cuál es mayor
     if numbers[0] == numbers[1]:
         return "Los dos números ingresados son iguales"
     elif numbers[0] > numbers[1]:
